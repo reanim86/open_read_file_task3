@@ -15,6 +15,7 @@ with open('3.txt', encoding='utf-8') as file3:
 with open('res.txt', 'w', encoding='utf-8') as res:
     res.write(f1_name + '\n')
     res.write(str(len(f1)) + '\n')
+    res.writelines(f1)
 
 
 #print(f1_name)
